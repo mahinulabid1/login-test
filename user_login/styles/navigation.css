@@ -1,0 +1,36 @@
+.page_heading {
+    margin-top: 50px;
+}
+
+.route_button {
+    /* width: 100%; */
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    text-align:center;
+    transition: all 0.4s;
+}
+
+.route_button:link,
+.route_button:visited {
+    background-color: #007BFF;
+    color: white;
+}
+
+.route_button:active,
+.route_button:hover {
+    background-color: #003772;
+    color: white;
+}
+
+.route_list{
+    width: 400px;
+    margin: 20px auto;
+    display:flex;
+    justify-content: center;
+    gap: 20px;
+    
+}
